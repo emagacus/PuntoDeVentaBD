@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LoncheriaToñita.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="userName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">usuario</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUSIT6rNnjkmWNdlwZJw7hwAAAAACAAAAAAAQZgAAAAEAACAAAAAXjLYqimM05n2LQJYbRJ9jK/kWosBnHLF3qMOPkmQFCQAAAAAOgAAAAAIAACAAAABPus4K7GR4vxjgTpQlzEcsAx6O4y2X/01RmUFoaJ+o6SAAAADdwlUNmA1o2msnqt+je84cI9n3spvbnMpDdhXAnl6v8UAAAACdGRE7U9Ha52Hq+0UBi/ho2VwfYcC7cPffivxQI10zGHLccPCYWy/+RZYTXBgyqYna2LLXBKeVwxm5RKZUXRGY</Value>
+    </Setting>
+    <Setting Name="User" Type="System.String" Scope="User">
+      <Value Profile="(Default)">admin</Value>
+    </Setting>
+    <Setting Name="DBHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="DBpassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUSIT6rNnjkmWNdlwZJw7hwAAAAACAAAAAAAQZgAAAAEAACAAAAAXjLYqimM05n2LQJYbRJ9jK/kWosBnHLF3qMOPkmQFCQAAAAAOgAAAAAIAACAAAABPus4K7GR4vxjgTpQlzEcsAx6O4y2X/01RmUFoaJ+o6SAAAADdwlUNmA1o2msnqt+je84cI9n3spvbnMpDdhXAnl6v8UAAAACdGRE7U9Ha52Hq+0UBi/ho2VwfYcC7cPffivxQI10zGHLccPCYWy/+RZYTXBgyqYna2LLXBKeVwxm5RKZUXRGY</Value>
+    </Setting>
+    <Setting Name="DBName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">punto_de_venta</Value>
+    </Setting>
+    <Setting Name="DBUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">postgres</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
