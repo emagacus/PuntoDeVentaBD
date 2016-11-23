@@ -31,11 +31,11 @@ namespace LoncheriaToñita
             textBox2.Select();
             Size size = new Size(160, 160);
             pictureBox1.Image = new Bitmap(Resources.icon_user, size);
-           // PsqlConnection con = new PsqlConnection();
-           // con.conexion();
-          //  NpgsqlConnection conect = con.conexion();
+            // PsqlConnection con = new PsqlConnection();
+            // con.conexion();
+            //  NpgsqlConnection conect = con.conexion();
 
-
+            
         }
 
          byte[] entropy = System.Text.Encoding.Unicode.GetBytes("Salt Is Not A Password");

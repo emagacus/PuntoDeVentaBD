@@ -14,13 +14,15 @@ namespace LoncheriaToñita
     public partial class BaseForm : Form
     {
 
-
+        NpgsqlConnection dbconexion;
+        string Dbsettings;
 
 
         public BaseForm(string Dbsettings)
         {
             InitializeComponent();
-            NpgsqlConnection dbconexion = new NpgsqlConnection(Dbsettings);
+            this.Dbsettings = Dbsettings;
+            dbconexion = new NpgsqlConnection(Dbsettings);
             WindowState = FormWindowState.Maximized;
         }
 
@@ -46,7 +48,7 @@ namespace LoncheriaToñita
         private void ventaToolStripMenuItem_Click(object sender, EventArgs e)
         {
           
-                VentaForm vform = new VentaForm();
+                VentaForm vform = new VentaForm(dbconexion,Dbsettings);
                 DisposeForms(vform);
                 vform.MdiParent = this;
                 vform.Show();
@@ -78,6 +80,17 @@ namespace LoncheriaToñita
                 WindowState = FormWindowState.Maximized;
                 oform.Size = new Size(Width - 4, Height - 4);
             }
+
+        }
+
+        private void cOMPRASToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BaseForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -77,6 +77,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="PsqlConnection.cs" />
+    <Compile Include="SeleccionCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleccionCliente.Designer.cs">
+      <DependentUpon>SeleccionCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Settings.cs" />
     <Compile Include="Tabla.cs">
       <SubType>Form</SubType>
@@ -103,6 +109,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeleccionCliente.resx">
+      <DependentUpon>SeleccionCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tabla.resx">
       <DependentUpon>Tabla.cs</DependentUpon>
